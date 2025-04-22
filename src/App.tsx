@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
-import Layout from './components/layout/Layout';
+import Layout from './components//Layout';
 import HomePage from './pages/HomePage';
 import ProblemSolverPage from './pages/ProblemSolverPage';
 import FormulaReferencePage from './pages/FormulaReferencePage';

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Search, ChevronDown, ChevronUp, BookOpen } from 'lucide-react';
-import MathEquation from '../components/shared/MathEquation';
+import MathEquation from '../shared/MathEquation';
 
 // Mock data for formulas
 const formulaData = [

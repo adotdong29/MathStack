@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Calculator, Book, Clock, Award, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
-import MathEquation from '../components/shared/MathEquation';
+import MathEquation from '../shared/MathEquation';
 
 const HomePage: React.FC = () => {
   const features = [

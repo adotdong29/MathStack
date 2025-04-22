@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Circle, ChevronDown, ChevronUp, Clock, RefreshCw } from 'lucide-react';
-import MathEquation from '../components/shared/MathEquation';
+import MathEquation from '../shared/MathEquation';
 
 // Mock data for competition types and topics
 const competitionTypes = [

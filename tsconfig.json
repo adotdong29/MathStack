@@ -1,7 +1,42 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    // Target modern browsers
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    // Support JSX in .tsx files
+    "jsx": "react-jsx",
+
+    // Use ES modules
+    "module": "ESNext",
+    "moduleResolution": "Node",
+
+    // Strict type‑checking
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Don’t emit any JS—Vite handles that
+    "noEmit": true,
+    "isolatedModules": true,
+
+    // Enable JSON imports
+    "resolveJsonModule": true,
+
+    //
+    // BASE URL / PATHS CONFIG
+    //
+    // This makes `src` the root for absolute imports.
+    // You can then write:
+    //    import { useTheme } from 'contexts/ThemeContext'
+    // instead of
+    //    import { useTheme } from '../contexts/ThemeContext'
+    //
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

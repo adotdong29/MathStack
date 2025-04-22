@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Clock, AlertCircle, Check, X, ChevronRight, RotateCcw } from 'lucide-react';
-import MathEquation from '../components/shared/MathEquation';
+import MathEquation from '../shared/MathEquation';
 
 interface ProblemType {
   id: number;
